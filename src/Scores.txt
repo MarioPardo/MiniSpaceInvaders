@@ -1,0 +1,18 @@
+1.0 Null
+1.0 Null
+1.0 Null
+1.0 Null
+2.0 Mario
+4.0 Luige
+3.0 Mario
+3.0 MMM
+3.0 Mario
+1.5 Please
+ 2.0 Mario
+ 1.0 pldsa
+ 2.0 df
+ 2.0 name
+ 3.0 na
+ 3.0 gf
+ 3.0 Baxter
+ 2.0 Maruio
