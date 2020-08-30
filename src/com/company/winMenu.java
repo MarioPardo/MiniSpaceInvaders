@@ -82,7 +82,13 @@ public class winMenu extends JPanel
         {
 
             y += 40;
-            g.drawString(score.name + ": " + score.points + " Points!",  x , y );  //writes the kill count
+            try {
+                g.drawString(score.name + ": " + score.points + " Points!", x, y);  //writes the kill count
+            }catch(Exception e)
+            {
+                System.out.println("not enought in list!");
+            }
+
         }
 
 

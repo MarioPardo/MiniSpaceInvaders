@@ -31,10 +31,10 @@ public class HighScoreListClass
         //creates the objects to read and write to the file
 
         try{
-             f = new FileWriter("M:\\IntelliJ\\Projects\\Swing Projects\\MiniSpaceInvaders\\src\\Scores.txt", true);
+             f = new FileWriter("Scores.txt", true);
             formatter = new Formatter(f);
 
-            scanner = new Scanner(new File("M:\\IntelliJ\\Projects\\Swing Projects\\MiniSpaceInvaders\\src\\Scores.txt  "));
+            scanner = new Scanner(new File("Scores.txt  "));
 
 
         }catch(Exception e)
@@ -65,7 +65,13 @@ public class HighScoreListClass
 
         for(int i = 0; i < number; i++) //gets number amount of scores
         {
-            scoreArray[i] = SortedScores.get(i); //gets the score
+            try {
+                scoreArray[i] = SortedScores.get(i); //gets the score
+            }
+            catch(Exception e)
+            {
+                System.out.println("Not enough players in list to make list!");
+            }
         }
 
 
@@ -76,20 +82,29 @@ public class HighScoreListClass
 
     public static void sortScores()
     {
+        System.out.println("Sorting Scores");
 
         SortedScores = new ArrayList<Score>(); //creates new array, therefore clearing it from past uses
 
         try {  //creates a new scanner so that it scans from the top of the file again
-            scanner = new Scanner(new File("M:\\IntelliJ\\Projects\\Swing Projects\\MiniSpaceInvaders\\src\\Scores.txt"));
+            scanner = new Scanner(new File("Scores.txt"));
         }
         catch(Exception e)
         {
-            System.out.println("ooo");
+            System.out.println("Problem opening file");
         }
 
         while(scanner.hasNext())  //entire file
         {
-            float score = Float.parseFloat(scanner.next());  //stores the score
+            double score = 0.0;
+            try{
+                 score = Double.parseDouble(scanner.next());  //stores the score
+            }
+            catch  (Exception e)
+            {
+            }
+
+
             String name = scanner.next();  //stores the name
 
             SortedScores.add(new Score(score,name));  //adds this score to the

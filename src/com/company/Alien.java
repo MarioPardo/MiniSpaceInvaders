@@ -118,7 +118,7 @@ public class Alien {
 
     public static void playExplosion()
     {
-        Main.playSound("M:\\IntelliJ\\Projects\\Swing Projects\\MiniSpaceInvaders\\Explosion.wav");
+        Main.playSound("Explosion.wav");
 
     }
 

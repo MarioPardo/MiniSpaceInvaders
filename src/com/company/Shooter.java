@@ -39,6 +39,7 @@ public class Shooter {
 
             for (Alien alien : alienLIst)  //iterates through everey alien, and then every bullet checks collision with them
             {
+                if(alien != null)
                 bullet.checkCollision(alien, this);
 
             }
@@ -52,7 +53,8 @@ public class Shooter {
         public void shoot()  //shoot bullet
         {
             bulletList.add(new Bullet(x,y));  //add new bullet to bullet list
-            Main.playSound("M:\\IntelliJ\\Projects\\Swing Projects\\MiniSpaceInvaders\\Shooting.wav");  //play shooting sound
+            Main.playSound("Shooting.wav");  //play shooting sound
+
 
 
         }
