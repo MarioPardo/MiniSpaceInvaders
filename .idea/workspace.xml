@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="153564c9-3fcd-4328-a7f2-fc936c91ac5a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArrowKey Moving/Scores.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Scores.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Alien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Alien.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/HighScoreListClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/HighScoreListClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Shooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Shooter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/winMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/winMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scores.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Scores.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scores.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="60">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -176,7 +169,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="3859" />
@@ -426,8 +419,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Scores.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="60">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
